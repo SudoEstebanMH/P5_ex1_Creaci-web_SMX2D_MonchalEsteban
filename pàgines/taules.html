@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            max-width: 950px;
+        }
+        .header-title {
+            background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+            padding: 10px 15px;
+            font-weight: bold;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 13px;
+        }
+        th, td {
+            padding: 6px 4px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .race-code {
+            color: #cc0000;
+            font-weight: bold;
+        }
+        .pos-col { width: 30px; }
+        .team-col { text-align: left; padding-left: 10px; color: #cc0000; }
+        .total-col { background-color: #e8e8e8; font-weight: bold; }
+        tr:nth-child(even) { background-color: #fafafa; }
+        .empty-cell { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+<nav>
+<ul>
+   <li><a href="../index.html" title="Pàgina index">Index</a></li>
+   <li><a href="enllacos.html" title="Pàgina de enllaços">enllaços</a></li>
+   <li><a href="javascript.html" title="Pàgina de javascript">Javascript</a></li>
+</ul>
+</nav>
+<div class="container">
+    <div class="header-title">Clasificacion equipos</div>
+    <table>
+        <thead>
+            <tr>
+                <th>Pos.</th>
+                <th style="text-align: left; padding-left: 10px;">Equipo</th>
+                <th class="total-col">Tot.</th>
+                <th class="race-code">AU</th>
+                <th class="race-code">MA</th>
+                <th class="race-code">BA</th>
+                <th class="race-code">CH</th>
+                <th class="race-code">ES</th>
+                <th class="race-code">MO</th>
+                <th class="race-code">CA</th>
+                <th class="race-code">AT</th>
+                <th class="race-code">GB</th>
+                <th class="race-code">AL</th>
+                <th class="race-code">HU</th>
+                <th class="race-code">BE</th>
+                <th class="race-code">IT</th>
+                <th class="race-code">SG</th>
+                <th class="race-code">JA</th>
+                <th class="race-code">RU</th>
+                <th>USA</th>
+                <th>BR</th>
+                <th>AB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1º</td><td class="team-col">Mercedes</td><td class="total-col">565</td>
+                <td>25</td><td>43</td><td>43</td><td>43</td><td>43</td><td>43</td><td>18</td><td>43</td><td>25</td><td>40</td><td>27</td><td>18</td><td>43</td><td>25</td><td>43</td><td>43</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>2º</td><td class="team-col">Red Bull</td><td class="total-col">342</td>
+                <td>0</td><td>15</td><td>20</td><td>22</td><td>27</td><td>15</td><td>40</td><td>4</td><td>25</td><td>20</td><td>31</td><td>35</td><td>18</td><td>33</td><td>27</td><td>10</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>3º</td><td class="team-col">Williams</td><td class="total-col">216</td>
+                <td>10</td><td>10</td><td>10</td><td>6</td><td>10</td><td>6</td><td>6</td><td>27</td><td>18</td><td>18</td><td>14</td><td>15</td><td>27</td><td>10</td><td>14</td><td>15</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>4º</td><td class="team-col">Ferrari</td><td class="total-col">188</td>
+                <td>18</td><td>12</td><td>3</td><td>19</td><td>14</td><td>12</td><td>9</td><td>11</td><td>8</td><td>10</td><td>26</td><td>18</td><td>2</td><td>16</td><td>0</td><td>10</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>5º</td><td class="team-col">McLaren</td><td class="total-col">143</td>
+                <td>33</td><td>10</td><td>0</td><td>0</td><td>0</td><td>9</td><td>14</td><td>6</td><td>18</td><td>6</td><td>1</td><td>8</td><td>5</td><td>1</td><td>10</td><td>22</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>6º</td><td class="team-col">Force India</td><td class="total-col">123</td>
+                <td>9</td><td>10</td><td>25</td><td>10</td><td>3</td><td>10</td><td>10</td><td>10</td><td>4</td><td>7</td><td>0</td><td>5</td><td>6</td><td>8</td><td>5</td><td>1</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>7º</td><td class="team-col">Toro Rosso</td><td class="total-col">29</td>
+                <td>6</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>4</td><td>0</td><td>3</td><td>0</td><td>2</td><td>2</td><td>0</td><td>8</td><td>2</td><td>0</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>8º</td><td class="team-col">Lotus</td><td class="total-col">8</td>
+                <td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>9º</td><td class="team-col">Marussia</td><td class="total-col">2</td>
+                <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>10º</td><td class="team-col">Sauber</td><td class="total-col">0</td>
+                <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+            <tr>
+                <td>11º</td><td class="team-col">Caterham</td><td class="total-col">0</td>
+                <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="empty-cell"></td><td class="empty-cell"></td><td class="empty-cell"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
